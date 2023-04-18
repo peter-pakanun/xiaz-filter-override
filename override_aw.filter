@@ -2,7 +2,7 @@
 
 Show # $type->animatedweapons $tier->normalmelee
 	Rarity Normal
-	Class "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
+	Class "Claws" "Daggers" "Rune Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves" "Warstaves"
 	SetFontSize 18
 	SetBorderColor 230 0 0 255
 	SetBackgroundColor 0 0 0 100
@@ -17,7 +17,7 @@ Show # $type->animatedweapons $tier->normalranged
 Show # $type->animatedweapons $tier->magicmelee
 	Rarity Magic
   Identified True
-	Class "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
+	Class "Claws" "Daggers" "Rune Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves" "Warstaves"
 	SetFontSize 18
 	SetBorderColor 230 0 0 255
 	SetBackgroundColor 0 0 0 100

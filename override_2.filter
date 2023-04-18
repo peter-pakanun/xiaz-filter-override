@@ -1,0 +1,51 @@
+# Full rare set
+
+Show
+	ItemLevel >= 60
+	Rarity Rare
+  Identified False
+	Class "Two Hand" "Bows"
+	SetTextColor 255 190 0
+	SetBorderColor 255 190 0
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 45
+# Yellow
+Show
+	ItemLevel >= 60
+	Rarity Rare
+  Identified False
+	Class "Body Armour"
+	SetTextColor 255 190 0
+	SetBorderColor 255 190 0
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 45
+# Pink
+Show
+	ItemLevel >= 60
+	Rarity Rare
+  Identified False
+	Class "Helmets"
+	SetTextColor 255 190 0
+	SetBorderColor 255 190 0
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 45
+# Blue
+Show
+	ItemLevel >= 60
+	Rarity Rare
+  Identified False
+	Class "Gloves"
+	SetTextColor 255 190 0
+	SetBorderColor 255 190 0
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 45
+# White
+Show
+	ItemLevel >= 60
+	Rarity Rare
+  Identified False
+	Class "Boots"
+	SetTextColor 255 190 0
+	SetBorderColor 255 190 0
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 45

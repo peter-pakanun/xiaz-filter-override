@@ -1,0 +1,151 @@
+# Shaper Currency sound
+
+Show # $tier->t21 $type->currency
+Class Currency
+BaseType == "Awakened Sextant" "Exalted Shard" "Fertile Catalyst" "Harbinger's Orb" "Infused Engineer's Orb" "Orb of Annulment" "Prismatic Catalyst" "Stacked Deck" "Tempering Catalyst"
+SetFontSize 45
+SetTextColor 0 0 0 255                   # TEXTCOLOR:	 High Special Base
+SetBorderColor 0 0 0 255                 # BORDERCOLOR:	 Neutral T1
+SetBackgroundColor 240 90 35 255         # BACKGROUND:	 Currency T2
+DisableDropSound True
+PlayEffect Yellow
+MinimapIcon 1 Yellow Circle
+PlayAlertSound ShGeneral 300
+
+Show # $tier->t22 $type->currency
+Class Currency
+BaseType == "Ancient Shard" "Annulment Shard" "Gemcutter's Prism" "Orb of Regret" "Turbulent Catalyst"
+SetFontSize 45
+SetTextColor 0 0 0 255                   # TEXTCOLOR:	 High Special Base
+SetBorderColor 0 0 0 255                 # BORDERCOLOR:	 Neutral T1
+SetBackgroundColor 249 150 25 255        # BACKGROUND:	 Currency T3
+DisableDropSound True
+PlayEffect White
+MinimapIcon 2 White Circle
+PlayAlertSound ShGeneral 300
+
+Show # %H5 %C4 $tier->t23 $type->currency
+Class Currency
+BaseType == "Abrasive Catalyst" "Bestiary Orb" "Cartographer's Chisel" "Engineer's Orb" "Facetor's Lens" "Harbinger's Shard" "Imbued Catalyst" "Intrinsic Catalyst" "Orb of Binding" "Orb of Horizons" "Orb of Scouring" "Prime Sextant" "Simple Sextant"
+SetFontSize 45
+SetTextColor 0 0 0 255                   # TEXTCOLOR:	 High Special Base
+SetBorderColor 0 0 0                     # BORDERCOLOR:	 Neutral T1.5
+SetBackgroundColor 213 159 0 255         # BACKGROUND:	 Currency T4
+DisableDropSound True
+PlayEffect White
+MinimapIcon 2 White Circle
+PlayAlertSound ShGeneral 300
+
+
+# FilterBlade: Conditional Entry
+Show 
+Class Currency
+SetTextColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+SetBorderColor 255 0 0 255
+SetFontSize 45
+BaseType "Mirror of Kalandra"
+PlayAlertSound ShMirror 300
+MinimapIcon 0 Red Star
+PlayEffect Red
+
+# FilterBlade: Conditional Entry
+Show 
+Class Currency
+SetTextColor 0 0 0 255
+SetBackgroundColor 249 150 25 255
+SetBorderColor 0 0 0 255
+SetFontSize 45
+BaseType "Regal Orb"
+PlayAlertSound ShRegal 300
+MinimapIcon 2 White Circle
+PlayEffect White
+DisableDropSound True
+
+# FilterBlade: Conditional Entry
+Show 
+Class Currency
+SetTextColor 0 0 0 255
+SetBackgroundColor 249 150 25 255
+SetBorderColor 0 0 0 255
+SetFontSize 45
+BaseType "Chaos Orb"
+PlayAlertSound ShChaos 300
+MinimapIcon 2 White Circle
+PlayEffect White
+DisableDropSound True
+
+# FilterBlade: Conditional Entry
+Show 
+Class Currency
+SetTextColor 0 0 0 255
+SetBackgroundColor 213 159 0 255
+SetBorderColor 0 0 0
+SetFontSize 45
+BaseType "Orb of Fusing"
+PlayAlertSound ShFusing 300
+MinimapIcon 2 White Circle
+PlayEffect White
+DisableDropSound True
+
+# FilterBlade: Conditional Entry
+Show 
+Class Currency
+SetTextColor 0 0 0 255
+SetBackgroundColor 213 159 0 255
+SetBorderColor 0 0 0
+SetFontSize 45
+BaseType "Orb of Alchemy"
+PlayAlertSound ShAlchemy 300
+MinimapIcon 2 White Circle
+PlayEffect White
+DisableDropSound True
+
+# FilterBlade: Conditional Entry
+Show 
+Class Currency
+SetTextColor 0 0 0 255
+SetBackgroundColor 213 159 0 255
+SetBorderColor 0 0 0
+SetFontSize 45
+BaseType "Vaal Orb"
+PlayAlertSound ShVaal 300
+MinimapIcon 2 White Circle
+PlayEffect White
+DisableDropSound True
+
+# FilterBlade: Conditional Entry
+Show 
+Class Currency
+SetTextColor 0 0 0 255
+SetBackgroundColor 213 159 0 255
+SetBorderColor 0 0 0
+SetFontSize 45
+BaseType "Blessed Orb"
+PlayAlertSound ShBlessed 300
+MinimapIcon 2 White Circle
+PlayEffect White
+DisableDropSound True
+
+Show # $tier->t11 $type->currency
+Class Currency
+BaseType "Albino Rhoa Feather" "Awakener's Orb" "Crusader's Exalted Orb" "Eternal Orb" "Exalted Orb" "Hunter's Exalted Orb" "Mirror Shard" "Redeemer's Exalted Orb" "Warlord's Exalted Orb"
+SetFontSize 45
+SetTextColor 255 0 0 255                 # TEXTCOLOR:	 T0 Item
+SetBorderColor 255 0 0 255               # BORDERCOLOR:	 T0 Item
+SetBackgroundColor 255 255 255 255       # BACKGROUND:	 T0 Drop
+PlayEffect Red
+MinimapIcon 0 Red Star
+PlayAlertSound ShExalted 300
+
+Show # $tier->t12 $type->currency
+Class Currency
+BaseType == "Ancient Orb" "Divine Orb"
+SetFontSize 45
+SetTextColor 255 255 255 255             # TEXTCOLOR:	 Cosmetic White
+SetBorderColor 255 255 255 255           # BORDERCOLOR:	 T1 highlight
+SetBackgroundColor 240 90 35 255         # BACKGROUND:	 Currency T2
+DisableDropSound True
+PlayEffect Red
+MinimapIcon 0 Red Circle
+PlayAlertSound ShDivine 300

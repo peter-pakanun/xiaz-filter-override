@@ -11,7 +11,7 @@ Show # $type->animatedweapons $tier->normalranged
 	Rarity Normal
 	Class "Bows" "Wands"
 	SetFontSize 18
-	SetBorderColor 230 0 0 255
+	SetBorderColor 230 0 230 255
 	SetBackgroundColor 0 0 0 100
 
 Show # $type->animatedweapons $tier->magicmelee
@@ -27,5 +27,5 @@ Show # $type->animatedweapons $tier->magicranged
   Identified True
 	Class "Bows" "Wands"
 	SetFontSize 18
-	SetBorderColor 230 0 0 255
+	SetBorderColor 230 0 230 255
 	SetBackgroundColor 0 0 0 100

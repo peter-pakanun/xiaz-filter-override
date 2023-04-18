@@ -1,0 +1,3 @@
+[submodule "NeverSink-Filter"]
+	path = NeverSink-Filter
+	url = https://github.com/NeverSinkDev/NeverSink-Filter.git

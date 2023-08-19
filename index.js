@@ -29,18 +29,40 @@ files.forEach(file => {
   // then we insert content of override_2.filter
   // # !! Override 170 : "Overquality and endgame 4links"
   // then we insert content of override_aw.filter but only for the AW version
+  let tableOfContentFound = false
+  let tableOfContentEnded = false
   for (let i = 0; i < lineData.length; i++) {
     newFileData += lineData[i] + '\r\n'
     newFileDataAW += lineData[i] + '\r\n'
-    if (lineData[i].startsWith('# !! Override 010 : "ALL Rules"')) {
+
+    // wait until we found "# [[0100]]"
+    if (!tableOfContentFound) {
+      if (lineData[i].startsWith('# [[0100]]')) {
+        tableOfContentFound = true
+        console.log('Found table of content at line ' + i);
+      }
+      continue
+    }
+
+    // after that, wait until we found an empty line
+    if (!tableOfContentEnded) {
+      if (lineData[i] === '') {
+        tableOfContentEnded = true
+        console.log('Found end of table of content at line ' + i);
+      }
+      continue
+    }
+
+    // we now in the content of the file
+    if (lineData[i].startsWith('# [[0100]]')) {
       newFileData += '\r\n' + override_1 + '\r\n'
       newFileDataAW += '\r\n' + override_1 + '\r\n'
     }
-    if (lineData[i].startsWith('# !! Override 020 : "influenced rules"')) {
+    if (lineData[i].startsWith('# [[0200]]')) {
       newFileData += '\r\n' + override_2 + '\r\n'
       newFileDataAW += '\r\n' + override_2 + '\r\n'
     }
-    if (lineData[i].startsWith('# !! Override 170 : "Overquality and endgame 4links"')) {
+    if (lineData[i].startsWith('# [[1700]]')) {
       newFileDataAW += '\r\n' + override_aw + '\r\n'
     }
   }

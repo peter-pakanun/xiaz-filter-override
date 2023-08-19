@@ -20,7 +20,7 @@ Show
 	SetBorderColor 255 190 0
 	SetBackgroundColor 0 0 80 200
 	SetFontSize 45
-# Pink
+# Magenta
 Show
 	ItemLevel >= 60
 	Rarity Rare
@@ -28,7 +28,7 @@ Show
 	Class "Helmets" "Gloves" "Boots"
 	SetTextColor 255 190 0
 	SetBorderColor 255 190 0
-	SetBackgroundColor 80 30 30 200
+	SetBackgroundColor 80 0 80 200
 	SetFontSize 45
 # Green
 Show

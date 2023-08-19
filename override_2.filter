@@ -49,3 +49,13 @@ Show
 	SetBorderColor 255 190 0
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 45
+# Green
+Show
+	ItemLevel >= 60
+	Rarity Rare
+	Identified False
+	Class "Belts" "Amulets" "Rings"
+	SetTextColor 255 190 0
+	SetBorderColor 255 190 0
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 45

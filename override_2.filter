@@ -1,6 +1,6 @@
 # Full rare set
 
-# Red
+# 2x3-2x4 Red
 Show
 	ItemLevel >= 60
 	Rarity Rare
@@ -10,7 +10,7 @@ Show
 	SetBorderColor 255 190 0
 	SetBackgroundColor 80 0 0 200
 	SetFontSize 45
-# Blue
+# 2x3 Magenta
 Show
 	ItemLevel >= 60
 	Rarity Rare
@@ -18,9 +18,10 @@ Show
 	Class "Body Armour"
 	SetTextColor 255 190 0
 	SetBorderColor 255 190 0
-	SetBackgroundColor 0 0 80 200
+	SetBackgroundColor 80 0 80 200
 	SetFontSize 45
-# Magenta
+
+# 2x2 Blue
 Show
 	ItemLevel >= 60
 	Rarity Rare
@@ -28,9 +29,9 @@ Show
 	Class "Helmets" "Gloves" "Boots"
 	SetTextColor 255 190 0
 	SetBorderColor 255 190 0
-	SetBackgroundColor 80 0 80 200
+	SetBackgroundColor 0 0 80 200
 	SetFontSize 45
-# Green
+# 1x1 2x1 Green
 Show
 	ItemLevel >= 60
 	Rarity Rare

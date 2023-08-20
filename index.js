@@ -58,7 +58,7 @@ files.forEach(file => {
       newFileData += '\r\n' + override_1 + '\r\n'
       newFileDataAW += '\r\n' + override_1 + '\r\n'
     }
-    if (lineData[i].startsWith('# [[0200]]')) {
+    if (lineData[i].startsWith('# [[1500]]')) {
       newFileData += '\r\n' + override_2 + '\r\n'
       newFileDataAW += '\r\n' + override_2 + '\r\n'
     }
